@@ -76,6 +76,8 @@ class FlightType(Enum):
             FlightType.INTERCEPTION,
             FlightType.ESCORT,
             FlightType.SWEEP,
+            FlightType.AEWC,
+            FlightType.REFUELING,
         }
 
     @property
