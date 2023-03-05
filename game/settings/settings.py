@@ -391,7 +391,7 @@ class Settings:
         page=MISSION_GENERATOR_PAGE,
         section=GAMEPLAY_SECTION,
         default=timedelta(minutes=60),
-        min=30,
+        min=20,
         max=150,
     )
 

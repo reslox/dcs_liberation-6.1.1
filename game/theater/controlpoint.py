@@ -42,7 +42,8 @@ from dcs.ships import (
 from dcs.terrain.terrain import Airport, ParkingSlot
 from dcs.unitgroup import ShipGroup, StaticGroup
 from dcs.unittype import ShipType
-from dcs.planes import AV8BNA
+
+
 
 from game.ato.closestairfields import ObjectiveDistanceCache
 from game.ground_forces.combat_stance import CombatStance
@@ -1477,3 +1478,6 @@ class Fob(ControlPoint):
     @property
     def status(self) -> ControlPointStatus:
         return ControlPointStatus.Functional
+
+
+
